@@ -1,0 +1,236 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="description" content="Descubre víveres, confitería y productos de cuidado personal en Distribuidora Costa Norte.">
+  <title>Costa Norte — Todo lo que necesitas, en un solo lugar</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/styles.css">
+  <script src="./js/app.js" defer></script>
+</head>
+<body>
+  <div class="announcement">
+    <span class="announcement-dot"></span>
+    <p>TODO PARA TU NEGOCIO Y TU HOGAR</p>
+    <a href="#catalogo">DESCUBRIR CATÁLOGO <span>↗</span></a>
+  </div>
+
+  <header class="header" id="top">
+    <a class="brand" href="#inicio" aria-label="Costa Norte, inicio">
+      <span class="brand-symbol"><img src="./img/logo-costanorte.jpg" alt="Logo Distribuidora Costa Norte"></span>
+      <span class="brand-copy"><strong>COSTA NORTE</strong><small>DISTRIBUIDORA DE ALIMENTOS</small></span>
+    </a>
+
+    <nav class="main-nav" aria-label="Navegación principal">
+      <a href="#inicio">Inicio</a>
+      <div class="nav-dropdown">
+        <button class="nav-dropdown-trigger" id="departments-toggle" aria-expanded="false">Departamentos <span>⌄</span></button>
+        <div class="mega-menu" id="mega-menu">
+          <div class="mega-intro">
+            <span class="eyebrow">EXPLORA COSTA NORTE</span>
+            <h3>Todo lo que buscas.<br><span>En un solo lugar.</span></h3>
+            <p>Encuentra tus productos favoritos y descubre nuevas opciones para tu hogar o negocio.</p>
+            <a class="text-link" href="#catalogo">Ver todo el catálogo ↗</a>
+          </div>
+          <div class="mega-links">
+            <a href="#catalogo" data-jump="Víveres"><span class="mega-icon">◈</span><span><strong>Víveres</strong><small>Despensa y básicos</small></span><b>↗</b></a>
+            <a href="#catalogo" data-jump="Confitería"><span class="mega-icon">✳</span><span><strong>Confitería</strong><small>Dulces y antojos</small></span><b>↗</b></a>
+            <a href="#catalogo" data-jump="Cuidado personal"><span class="mega-icon">✦</span><span><strong>Cuidado personal</strong><small>Para tu rutina diaria</small></span><b>↗</b></a>
+            <a href="#catalogo" data-jump="Bebidas"><span class="mega-icon">◉</span><span><strong>Bebidas</strong><small>Para cada ocasión</small></span><b>↗</b></a>
+            <a href="#catalogo" data-jump="Limpieza"><span class="mega-icon">✧</span><span><strong>Limpieza</strong><small>Tu espacio impecable</small></span><b>↗</b></a>
+            <a href="#catalogo" data-jump="Otros"><span class="mega-icon">＋</span><span><strong>Otros productos</strong><small>Más para descubrir</small></span><b>↗</b></a>
+          </div>
+        </div>
+      </div>
+      <a href="#destacados">Destacados</a>
+      <a href="#ofertas">Ofertas</a>
+      <a href="#como-comprar">Cómo comprar</a>
+    </nav>
+
+    <div class="header-actions">
+      <button class="icon-button" id="focus-search" aria-label="Buscar productos" title="Buscar">⌕</button>
+      <button class="cart-button" id="open-cart"><span class="cart-symbol">♧</span><span class="cart-label">Mi carrito</span><span class="cart-count" id="cart-count">0</span></button>
+      <button class="mobile-menu-button" id="mobile-menu-button" aria-label="Abrir menú" aria-expanded="false">☰</button>
+    </div>
+  </header>
+
+  <nav class="mobile-nav" id="mobile-nav" aria-label="Menú móvil" hidden>
+    <a href="#inicio">Inicio</a><a href="#categorias">Departamentos</a><a href="#destacados">Destacados</a><a href="#ofertas">Ofertas</a><a href="#catalogo">Catálogo completo</a><a href="#como-comprar">Cómo comprar</a><a href="#faq">Preguntas frecuentes</a><a href="#contacto">Contacto</a>
+  </nav>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="eyebrow-line"></span> TU DISTRIBUIDORA DE CONFIANZA</div>
+        <h1>Abastece tus días.<br><span>Disfruta el camino.</span></h1>
+        <p>Víveres, confitería y productos esenciales para tu hogar y negocio. Todo lo que necesitas, reunido en un solo lugar.</p>
+        <div class="hero-actions">
+          <a class="button button-dark" href="#catalogo">Explorar productos <span>↗</span></a>
+          <a class="button button-light" href="#categorias">Descubrir departamentos</a>
+        </div>
+        <div class="hero-proof">
+          <div class="proof-mark proof-logo"><img src="./img/logo-costanorte.jpg" alt="Distribuidora Costa Norte"></div>
+          <div><strong>Una compra más sencilla</strong><small>Explora · Elige · Prepara tu pedido</small></div>
+        </div>
+      </div>
+      <div class="hero-art">
+        <div class="hero-art-halo"></div>
+        <div class="hero-image"><img src="./img/banner-productos-premium.jpg" alt="Productos envasados y artículos de consumo en un supermercado"></div>
+        <div class="hero-floating"><span class="floating-icon">✳</span><div><strong>Tu próxima compra</strong><small>Empieza aquí</small></div><span class="floating-arrow">↗</span></div>
+        <div class="hero-vertical">CALIDAD · VARIEDAD · CONFIANZA</div>
+      </div>
+      <div class="hero-bottomline"><span>01 — BIENVENIDO A COSTA NORTE</span><a href="#categorias">DESLIZA PARA DESCUBRIR <span>↓</span></a></div>
+    </section>
+
+    <section class="benefit-strip" aria-label="Ventajas de la tienda">
+      <div><span class="benefit-icon">✳</span><span><strong>Variedad para elegir</strong><small>Diferentes categorías</small></span></div>
+      <div><span class="benefit-icon">◈</span><span><strong>Compra organizada</strong><small>Arma tu pedido online</small></span></div>
+      <div><span class="benefit-icon">↗</span><span><strong>Atención directa</strong><small>Contacto con la tienda</small></span></div>
+      <div><span class="benefit-icon">♡</span><span><strong>Hecho para ti</strong><small>Una compra más sencilla</small></span></div>
+    </section>
+
+    <section class="section categories-section" id="categorias">
+      <div class="section-top">
+        <div><span class="eyebrow">01 / EXPLORA POR CATEGORÍA</span><h2>Un mundo de opciones.<br><span>A un clic de distancia.</span></h2></div>
+        <p>Encuentra rápidamente lo que buscas explorando nuestros departamentos.</p>
+      </div>
+      <div class="category-grid">
+        <button class="category-card category-large" data-jump="Víveres">
+          <img src="./img/products/harina.jpg" alt="Harina de maíz venezolana y productos de despensa" loading="lazy">
+          <span class="category-overlay"></span><span class="category-index">01 / DESPENSA</span><span class="category-title">Víveres <b>↗</b></span><span class="category-desc">Todo lo esencial para tu despensa</span>
+        </button>
+        <button class="category-card" data-jump="Confitería">
+          <img src="./img/products/chocolate.png" alt="Chocolate y golosinas" loading="lazy">
+          <span class="category-overlay"></span><span class="category-index">02 / ALGO DULCE</span><span class="category-title">Confitería <b>↗</b></span><span class="category-desc">Sabores y antojos para disfrutar</span>
+        </button>
+        <button class="category-card" data-jump="Cuidado personal">
+          <img src="./img/products/shampoo.jpg" alt="Productos de cuidado personal" loading="lazy">
+          <span class="category-overlay"></span><span class="category-index">03 / TU RUTINA</span><span class="category-title">Cuidado personal <b>↗</b></span><span class="category-desc">Cuidado diario para ti y tu familia</span>
+        </button>
+        <button class="category-card" data-jump="Bebidas">
+          <img src="./img/products/bebida.png" alt="Bebidas populares en Venezuela" loading="lazy">
+          <span class="category-overlay"></span><span class="category-index">04 / PARA COMPARTIR</span><span class="category-title">Bebidas <b>↗</b></span><span class="category-desc">Tus bebidas favoritas para compartir</span>
+        </button>
+        <button class="category-card" data-jump="Limpieza">
+          <img src="./img/products/detergente.png" alt="Productos para la limpieza del hogar" loading="lazy">
+          <span class="category-overlay"></span><span class="category-index">05 / HOGAR IMPECABLE</span><span class="category-title">Limpieza <b>↗</b></span><span class="category-desc">Productos para mantener tu hogar limpio</span>
+        </button>
+      </div>
+    </section>
+
+    <section class="featured-band" id="destacados">
+      <div class="featured-band-image"><img src="./img/banner-productos-premium.jpg" alt="Productos de despensa seleccionados" loading="lazy"></div>
+      <div class="featured-band-copy"><span class="eyebrow">UNA COMPRA A TU MANERA</span><h2>Lo que necesitas.<br><span>Sin complicaciones.</span></h2><p>Explora el catálogo, agrega tus productos al carrito y prepara un resumen para consultar tu pedido con Costa Norte.</p><a class="button button-dark" href="#catalogo">Ver productos <span>↗</span></a><span class="band-caption">COSTA NORTE / SELECCIÓN DIARIA</span></div>
+    </section>
+
+    <section class="section catalog-section" id="catalogo">
+      <div class="section-top catalog-top">
+        <div><span class="eyebrow">02 / NUESTRO CATÁLOGO</span><h2>Encuentra tus <span>favoritos.</span></h2><p>Explora las opciones disponibles y arma tu lista de compra.</p></div>
+        <div class="catalog-count"><strong id="catalog-count">12</strong><span>PRODUCTOS<br>DE DEMOSTRACIÓN</span></div>
+      </div>
+      <div class="catalog-toolbar">
+        <div class="filter-list" id="filters">
+          <button class="filter active" data-filter="Todos">Todo el catálogo</button>
+          <button class="filter" data-filter="Víveres">Víveres</button>
+          <button class="filter" data-filter="Confitería">Confitería</button>
+          <button class="filter" data-filter="Cuidado personal">Cuidado personal</button>
+          <button class="filter" data-filter="Bebidas">Bebidas</button>
+          <button class="filter" data-filter="Limpieza">Limpieza</button>
+        </div>
+        <label class="search-box"><span>⌕</span><input type="search" id="search" placeholder="¿Qué estás buscando?" autocomplete="off"><kbd>/</kbd></label>
+      </div>
+      <div class="catalog-note"><span>✳</span> Catálogo de demostración. Los productos, imágenes y precios deben confirmarse con la distribuidora antes de vender.</div>
+      <div class="product-grid" id="product-grid"></div>
+      <div class="no-results" id="no-results" hidden>No encontramos productos con esa búsqueda. Prueba con otra palabra o categoría.</div>
+      <div class="catalog-bottom"><span>¿Buscabas algo más?</span><a href="#contacto">Consulta con Costa Norte ↗</a></div>
+    </section>
+
+    <section class="offer-section" id="ofertas">
+      <div class="offer-image"><img src="./img/banner-productos-premium.jpg" alt="Selección de productos en tienda" loading="lazy"><span class="offer-image-tag">COSTA NORTE / IDEAS PARA TU COMPRA</span></div>
+      <div class="offer-copy"><span class="eyebrow"><span class="pink-dot"></span> DESCUBRE MÁS</span><h2>Tu próxima compra<br>empieza con <span>una idea.</span></h2><p>¿Necesitas abastecer tu negocio, reponer la despensa o buscar algo especial? Explora el catálogo y prepara tu lista.</p><a class="button button-pink" href="#catalogo">Armar mi compra <span>↗</span></a><small>Los precios y la disponibilidad deben confirmarse antes de realizar el pedido.</small></div>
+    </section>
+
+    <section class="section how-section" id="como-comprar">
+      <div class="section-top"><div><span class="eyebrow">03 / ASÍ DE FÁCIL</span><h2>Comprar mejor.<br><span>En tres pasos.</span></h2></div><p>Prepara tu pedido desde esta página y consulta los detalles con la distribuidora.</p></div>
+      <div class="steps-grid">
+        <article class="step-card"><span class="step-number">01</span><div class="step-icon">⌕</div><h3>Explora</h3><p>Busca por nombre o descubre las categorías del catálogo.</p><span class="step-bottom">ENCUENTRA LO QUE NECESITAS ↗</span></article>
+        <article class="step-card"><span class="step-number">02</span><div class="step-icon">＋</div><h3>Agrega al carrito</h3><p>Elige las cantidades y revisa el total estimado de tu selección.</p><span class="step-bottom">ORGANIZA TU PEDIDO ↗</span></article>
+        <article class="step-card"><span class="step-number">03</span><div class="step-icon">↗</div><h3>Consulta tu pedido</h3><p>Completa tus datos y genera un resumen para coordinar con Costa Norte.</p><span class="step-bottom">PREPARA TU SOLICITUD ↗</span></article>
+      </div>
+      <div class="checkout-note"><span>i</span><p><strong>Compra transparente.</strong> Esta versión prepara una solicitud de pedido; no procesa pagos ni confirma inventario automáticamente. La tienda debe validar el precio final, la entrega y el pago.</p></div>
+    </section>
+
+    <section class="brand-section">
+      <div class="brand-section-inner"><span class="eyebrow">COSTA NORTE / NUESTRA ESENCIA</span><h2>Más que productos.<br><span>Una mejor forma de abastecerte.</span></h2><p>Una experiencia pensada para encontrar, organizar y consultar tu compra de forma sencilla.</p><a href="#contacto" class="text-link">Conoce nuestros canales de atención ↗</a><span class="brand-watermark">CN.</span></div>
+    </section>
+
+    <section class="section faq-section" id="faq">
+      <div class="faq-intro"><span class="eyebrow">04 / ¿TIENES DUDAS?</span><h2>Te ayudamos<br><span>a resolverlas.</span></h2><p>Información útil antes de preparar tu pedido.</p><a class="text-link" href="#contacto">¿Otra consulta? Escríbenos ↗</a></div>
+      <div class="faq-list">
+        <details><summary>¿Los precios que aparecen son definitivos?<span>＋</span></summary><p>No. Los productos y precios actuales son de demostración. Costa Norte debe confirmar los precios vigentes, las presentaciones y la disponibilidad.</p></details>
+        <details><summary>¿Puedo solicitar delivery?<span>＋</span></summary><p>El formulario permite seleccionar delivery o retiro en tienda. Las zonas, tarifas y condiciones de entrega deben ser confirmadas por la distribuidora.</p></details>
+        <details><summary>¿Qué métodos de pago puedo utilizar?<span>＋</span></summary><p>El formulario incluye opciones de referencia como Pago Móvil, transferencia y Zelle. Debes confirmar con Costa Norte cuáles acepta y solicitar sus datos oficiales antes de pagar.</p></details>
+        <details><summary>¿Mi pedido queda confirmado al enviarlo?<span>＋</span></summary><p>No. Esta versión genera un resumen del pedido en tu navegador. La confirmación requiere contactar a la tienda; aún no existe un sistema de pedidos conectado a un servidor.</p></details>
+        <details><summary>¿Cómo contacto a Costa Norte?<span>＋</span></summary><p>Puedes escribir al correo costanorte.ve@gmail.com. El número de WhatsApp y la dirección física deben agregarse cuando la distribuidora los confirme.</p></details>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contacto">
+      <div class="contact-main"><span class="eyebrow">05 / HABLEMOS</span><h2>¿Listo para tu<br><span>próxima compra?</span></h2><p>Consulta disponibilidad, precios y condiciones de entrega directamente con Costa Norte.</p><a class="button button-dark" href="mailto:costanorte.ve@gmail.com?subject=Consulta%20de%20productos%20-%20Costa%20Norte">Escribir por correo <span>↗</span></a></div>
+      <div class="contact-side"><span class="contact-mark">CN.</span><span class="eyebrow">CONTACTO OFICIAL</span><h3>Estamos para ayudarte.</h3><a class="contact-email" href="mailto:costanorte.ve@gmail.com">costanorte.ve@gmail.com ↗</a><span class="contact-line"></span><p>Distribuidora de alimentos<br>Víveres · Confitería · Cuidado personal</p><a class="text-link" href="https://www.instagram.com/distribuidora_costanorte/" target="_blank" rel="noopener noreferrer">Síguenos en Instagram ↗</a></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-top">
+      <a class="brand footer-brand" href="#inicio"><span class="brand-symbol"><img src="./img/logo-costanorte.jpg" alt="Logo Distribuidora Costa Norte"></span><span class="brand-copy"><strong>COSTA NORTE</strong><small>DISTRIBUIDORA DE ALIMENTOS</small></span></a>
+      <p>Todo lo que necesitas.<br>En un solo lugar.</p>
+      <a class="back-top" href="#top">VOLVER ARRIBA ↑</a>
+    </div>
+    <div class="footer-links">
+      <div><strong>EXPLORA</strong><a href="#categorias">Departamentos</a><a href="#destacados">Destacados</a><a href="#ofertas">Ideas para tu compra</a><a href="#catalogo">Catálogo</a></div>
+      <div><strong>TE AYUDAMOS</strong><a href="#como-comprar">Cómo comprar</a><a href="#faq">Preguntas frecuentes</a><a href="#contacto">Contacto</a><a href="mailto:costanorte.ve@gmail.com">Correo electrónico</a></div>
+      <div><strong>SÍGUENOS</strong><a href="https://www.instagram.com/distribuidora_costanorte/" target="_blank" rel="noopener noreferrer">Instagram ↗</a><span>Venezuela</span><span>Víveres · Confitería · Cuidado personal</span></div>
+    </div>
+    <div class="footer-bottom"><span>© <span id="year"></span> DISTRIBUIDORA COSTA NORTE</span><span>UNA EXPERIENCIA DE COMPRA MÁS SENCILLA.</span><span>PRECIOS DE DEMOSTRACIÓN</span></div>
+  </footer>
+
+  <div class="overlay" id="overlay"></div>
+  <aside class="cart-drawer" id="cart-drawer" aria-label="Carrito de compras" aria-modal="true">
+    <div class="drawer-heading"><div><span class="eyebrow">TU SELECCIÓN</span><h2>Mi carrito <span id="drawer-count">(0)</span></h2></div><button class="close-button" id="close-cart" aria-label="Cerrar carrito">×</button></div>
+    <div class="cart-items" id="cart-items"></div>
+    <div class="drawer-footer"><div class="total-row"><span>Total estimado</span><strong id="cart-total">$0.00</strong></div><p>Importes de demostración en USD. Confirma precios, disponibilidad y entrega con la tienda.</p><button class="button button-pink full-button" id="checkout-button">Preparar mi pedido <span>→</span></button><button class="continue-shopping" id="continue-shopping">Seguir explorando</button></div>
+  </aside>
+
+  <section class="checkout-modal" id="checkout-modal" hidden aria-label="Datos del pedido">
+    <div class="drawer-heading"><div><span class="eyebrow">ÚLTIMO PASO</span><h2>Prepara tu pedido</h2></div><button class="close-button" id="close-checkout" aria-label="Cerrar">×</button></div>
+    <form id="checkout-form">
+      <label>Nombre y apellido<input name="customer" required autocomplete="name" placeholder="¿Cómo te llamas?"></label>
+      <label>Teléfono de contacto<input name="phone" required autocomplete="tel" placeholder="Tu número de teléfono"></label>
+      <label>Forma de entrega<select name="delivery" id="delivery"><option value="Retiro en tienda">Retiro en tienda</option><option value="Delivery">Delivery</option></select></label>
+      <label id="address-label" hidden>Dirección de entrega<textarea name="address" id="address" rows="2" placeholder="Sector, calle y referencia"></textarea></label>
+      <label>Método de pago preferido<select name="payment"><option>Pago Móvil (por confirmar)</option><option>Transferencia bancaria (por confirmar)</option><option>Zelle (por confirmar)</option><option>Consultar métodos disponibles</option></select></label>
+      <label>Comprobante (opcional)<input type="file" id="receipt" accept="image/*,.pdf"><small class="field-hint">El archivo no se envía ni se almacena en esta demostración.</small></label>
+      <button class="button button-pink full-button" type="submit">Generar resumen del pedido ↗</button>
+    </form>
+    <div class="order-result" id="order-result" hidden></div>
+  </section>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

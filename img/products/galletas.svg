@@ -1,0 +1,11 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 300">
+  <rect width="250" height="300" rx="18" fill="#fbf5fa"/>
+  <circle cx="205" cy="45" r="32" fill="#bd865b" opacity=".15"/>
+  <circle cx="42" cy="220" r="24" fill="#B84C97" opacity=".12"/>
+  <path d="M70 75 L155 55 L180 75 L180 205 L70 205 Z" fill="#bd865b" stroke="#34253b" stroke-width="3"/><path d="M70 75 L155 55 L155 185 L70 205 Z" fill="#fff" opacity=".18"/>
+  <rect x="83" y="125" width="84" height="43" rx="5" fill="#fff" opacity=".94"/>
+  <text x="125" y="143" font-family="Arial,sans-serif" font-size="9" font-weight="bold" text-anchor="middle" fill="#30243a">Confitería</text>
+  <text x="125" y="157" font-family="Arial,sans-serif" font-size="9" text-anchor="middle" fill="#30243a">Galletas dulces</text>
+  <text x="125" y="266" font-family="Arial,sans-serif" font-size="10" letter-spacing="2" text-anchor="middle" fill="#716879">COSTA NORTE</text>
+  <path d="M90 280 H160" stroke="#bd865b" stroke-width="3" stroke-linecap="round"/>
+</svg>
