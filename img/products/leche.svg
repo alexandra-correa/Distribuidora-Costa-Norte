@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="220" viewBox="0 0 240 220">
+  <rect width="240" height="220" rx="18" fill="#F8F7F3"/>
+  <circle cx="120" cy="110" r="78" fill="#8EC9E8" opacity="0.22"/>
+  <path d="M108 72 L120 52 L139 52 L151 72 L151 157 L108 157 Z" fill="#F8FCFF" stroke="#5597BD" stroke-width="3"/><path d="M120 52 L120 39 L140 39 L140 52" fill="#8EC9E8" stroke="#5597BD" stroke-width="3"/><rect x="113" y="95" width="33" height="26" rx="4" fill="#8EC9E8"/><path d="M118 108 Q129 96 141 108" fill="none" stroke="white" stroke-width="3"/>
+  <text x="120" y="190" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#333333">LECHE</text>
+  <text x="120" y="207" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#666666">ILUSTRACION REFERENCIAL</text>
+</svg>

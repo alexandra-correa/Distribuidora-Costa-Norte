@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="220" viewBox="0 0 240 220">
+  <rect width="240" height="220" rx="18" fill="#F8F7F3"/>
+  <circle cx="120" cy="110" r="78" fill="#E98970" opacity="0.22"/>
+  <path d="M75 119 Q106 84 151 106 L166 92 L163 121 L170 145 L151 132 Q107 154 75 119 Z" fill="#F2A18C" stroke="#AD594B" stroke-width="3"/><path d="M92 113 L145 120 M104 101 L119 137 M126 103 L138 134" stroke="#FFE0D5" stroke-width="4" stroke-linecap="round"/><circle cx="91" cy="115" r="3" fill="#7A3B35"/>
+  <text x="120" y="190" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#333333">SALMON</text>
+  <text x="120" y="207" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#666666">ILUSTRACION REFERENCIAL</text>
+</svg>

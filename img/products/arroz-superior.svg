@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="220" viewBox="0 0 240 220">
+  <rect width="240" height="220" rx="18" fill="#F8F7F3"/>
+  <circle cx="120" cy="110" r="78" fill="#D9B56D" opacity="0.22"/>
+  <path d="M100 62 L145 80 L138 157 Q122 174 106 157 Z" fill="#F4E8C9" stroke="#947548" stroke-width="3"/><path d="M108 95 Q123 84 139 96" fill="none" stroke="#C5A66D" stroke-width="4"/><g fill="#D8C18C"><ellipse cx="115" cy="111" rx="4" ry="8"/><ellipse cx="128" cy="119" rx="4" ry="8"/><ellipse cx="116" cy="133" rx="4" ry="8"/></g>
+  <text x="120" y="190" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#333333">ARROZ</text>
+  <text x="120" y="207" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#666666">ILUSTRACION REFERENCIAL</text>
+</svg>

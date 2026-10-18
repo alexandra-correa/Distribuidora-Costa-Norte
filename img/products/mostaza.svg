@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="220" viewBox="0 0 240 220">
+  <rect width="240" height="220" rx="18" fill="#F8F7F3"/>
+  <circle cx="120" cy="110" r="78" fill="#E4BD38" opacity="0.22"/>
+  <path d="M109 78 L109 63 L139 63 L139 78 L151 92 L147 155 L101 155 L97 92 Z" fill="#F4D95E" stroke="#A88720" stroke-width="3"/><rect x="109" y="52" width="30" height="13" rx="3" fill="#A88720"/><rect x="104" y="106" width="40" height="24" rx="4" fill="#FFF1A6"/><path d="M111 117 L137 117" stroke="#A88720" stroke-width="3"/>
+  <text x="120" y="190" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#333333">MOSTAZA</text>
+  <text x="120" y="207" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#666666">ILUSTRACION REFERENCIAL</text>
+</svg>

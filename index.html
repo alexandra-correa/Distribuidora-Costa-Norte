@@ -46,8 +46,8 @@
           </div>
         </div>
       </div>
-      <a href="#destacados">Destacados</a>
-      <a href="#ofertas">Ofertas</a>
+      <a href="#categorias">Categorías</a>
+      <a href="#catalogo">Catálogo</a>
       <a href="#como-comprar">Cómo comprar</a>
     </nav>
 
@@ -59,7 +59,7 @@
   </header>
 
   <nav class="mobile-nav" id="mobile-nav" aria-label="Menú móvil" hidden>
-    <a href="#inicio">Inicio</a><a href="#categorias">Departamentos</a><a href="#destacados">Destacados</a><a href="#ofertas">Ofertas</a><a href="#catalogo">Catálogo completo</a><a href="#como-comprar">Cómo comprar</a><a href="#faq">Preguntas frecuentes</a><a href="#contacto">Contacto</a>
+    <a href="#inicio">Inicio</a><a href="#categorias">Departamentos</a><a href="#categorias">Categorías</a><a href="#catalogo">Catálogo</a><a href="#catalogo">Catálogo completo</a><a href="#como-comprar">Cómo comprar</a><a href="#faq">Preguntas frecuentes</a><a href="#contacto">Contacto</a>
   </nav>
 
   <main>
@@ -86,14 +86,19 @@
       <div class="hero-bottomline"><span>01 — BIENVENIDO A COSTA NORTE</span><a href="#categorias">DESLIZA PARA DESCUBRIR <span>↓</span></a></div>
     </section>
 
-    <section class="benefit-strip" aria-label="Ventajas de la tienda">
-      <div><span class="benefit-icon">✳</span><span><strong>Variedad para elegir</strong><small>Diferentes categorías</small></span></div>
-      <div><span class="benefit-icon">◈</span><span><strong>Compra organizada</strong><small>Arma tu pedido online</small></span></div>
-      <div><span class="benefit-icon">↗</span><span><strong>Atención directa</strong><small>Contacto con la tienda</small></span></div>
-      <div><span class="benefit-icon">♡</span><span><strong>Hecho para ti</strong><small>Una compra más sencilla</small></span></div>
-    </section>
-
-    <section class="section categories-section" id="categorias">
+    <section class="offers-ribbon" id="offers-ribbon" aria-labelledby="offers-title">
+  <div class="offers-heading">
+    <div>
+      <span class="offers-eyebrow">OPORTUNIDADES PARA TU COMPRA</span>
+      <h2 id="offers-title">Ofertas que <span>te encantan.</span></h2>
+      <p>Precios especiales para esta muestra.</p>
+    </div>
+    <a class="offers-all" href="#catalogo">Ver catálogo ↗</a>
+  </div>
+  <div class="offers-track" id="offer-products" aria-label="Productos en oferta"></div>
+  <p class="offers-disclaimer">Promociones y precios ficticios, solo para demostración.</p>
+</section>
+<section class="section categories-section" id="categorias">
       <div class="section-top">
         <div><span class="eyebrow">01 / EXPLORA POR CATEGORÍA</span><h2>Un mundo de opciones.<br><span>A un clic de distancia.</span></h2></div>
         <p>Encuentra rápidamente lo que buscas explorando nuestros departamentos.</p>
@@ -120,11 +125,6 @@
           <span class="category-overlay"></span><span class="category-index">05 / HOGAR IMPECABLE</span><span class="category-title">Limpieza <b>↗</b></span><span class="category-desc">Productos para mantener tu hogar limpio</span>
         </button>
       </div>
-    </section>
-
-    <section class="featured-band" id="destacados">
-      <div class="featured-band-image"><img src="./img/banner-productos-premium.jpg" alt="Productos de despensa seleccionados" loading="lazy"></div>
-      <div class="featured-band-copy"><span class="eyebrow">UNA COMPRA A TU MANERA</span><h2>Lo que necesitas.<br><span>Sin complicaciones.</span></h2><p>Explora el catálogo, agrega tus productos al carrito y prepara un resumen para consultar tu pedido con Costa Norte.</p><a class="button button-dark" href="#catalogo">Ver productos <span>↗</span></a><span class="band-caption">COSTA NORTE / SELECCIÓN DIARIA</span></div>
     </section>
 
     <section class="section catalog-section" id="catalogo">
@@ -164,10 +164,6 @@
       <div class="checkout-note"><span>i</span><p><strong>Compra transparente.</strong> Esta versión prepara una solicitud de pedido; no procesa pagos ni confirma inventario automáticamente. La tienda debe validar el precio final, la entrega y el pago.</p></div>
     </section>
 
-    <section class="brand-section">
-      <div class="brand-section-inner"><span class="eyebrow">COSTA NORTE / NUESTRA ESENCIA</span><h2>Más que productos.<br><span>Una mejor forma de abastecerte.</span></h2><p>Una experiencia pensada para encontrar, organizar y consultar tu compra de forma sencilla.</p><a href="#contacto" class="text-link">Conoce nuestros canales de atención ↗</a><span class="brand-watermark">CN.</span></div>
-    </section>
-
     <section class="section faq-section" id="faq">
       <div class="faq-intro"><span class="eyebrow">04 / ¿TIENES DUDAS?</span><h2>Te ayudamos<br><span>a resolverlas.</span></h2><p>Información útil antes de preparar tu pedido.</p><a class="text-link" href="#contacto">¿Otra consulta? Escríbenos ↗</a></div>
       <div class="faq-list">
@@ -192,7 +188,7 @@
       <a class="back-top" href="#top">VOLVER ARRIBA ↑</a>
     </div>
     <div class="footer-links">
-      <div><strong>EXPLORA</strong><a href="#categorias">Departamentos</a><a href="#destacados">Destacados</a><a href="#ofertas">Ideas para tu compra</a><a href="#catalogo">Catálogo</a></div>
+      <div><strong>EXPLORA</strong><a href="#categorias">Departamentos</a><a href="#categorias">Categorías</a><a href="#ofertas">Ideas para tu compra</a><a href="#catalogo">Catálogo</a></div>
       <div><strong>TE AYUDAMOS</strong><a href="#como-comprar">Cómo comprar</a><a href="#faq">Preguntas frecuentes</a><a href="#contacto">Contacto</a><a href="mailto:costanorte.ve@gmail.com">Correo electrónico</a></div>
       <div><strong>SÍGUENOS</strong><a href="https://www.instagram.com/distribuidora_costanorte/" target="_blank" rel="noopener noreferrer">Instagram ↗</a><span>Venezuela</span><span>Víveres · Confitería · Cuidado personal</span></div>
     </div>
@@ -222,3 +218,6 @@
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
 </body>
 </html>
+
+
+

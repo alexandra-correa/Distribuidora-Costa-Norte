@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="220" viewBox="0 0 240 220">
+  <rect width="240" height="220" rx="18" fill="#F8F7F3"/>
+  <circle cx="120" cy="110" r="78" fill="#C94C65" opacity="0.22"/>
+  <rect x="94" y="76" width="60" height="77" rx="10" fill="#F4D5D9" stroke="#9E344B" stroke-width="3"/><rect x="91" y="65" width="66" height="17" rx="3" fill="#9E344B"/><rect x="100" y="101" width="48" height="29" rx="4" fill="#C94C65"/><circle cx="115" cy="111" r="5" fill="#F5C4CF"/><circle cx="132" cy="119" r="5" fill="#F5C4CF"/>
+  <text x="120" y="190" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#333333">MERMELADA</text>
+  <text x="120" y="207" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#666666">ILUSTRACION REFERENCIAL</text>
+</svg>
